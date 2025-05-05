@@ -1,0 +1,57 @@
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependencies
+node_modules/
+bower_components/
+
+# Optional npm cache directory
+.npm
+
+# Optional eslint cache
+.eslintcache
+
+# Optional stylelint cache
+.stylelintcache
+
+# Microbundle cache
+.rpt2_cache/
+
+# FuseBox cache
+.fusebox/
+
+# Output of the build process
+dist/
+build/
+out/
+.next/
+
+# IDEs and editors
+.idea
+.vscode
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+
+# dotenv environment variables file
+.env
+.env.local
+.env.*.local
+
+# macOS
+.DS_Store
+
+# TypeScript
+*.tsbuildinfo
