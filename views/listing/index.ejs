@@ -10,9 +10,15 @@
         Listings
         <ul>
             <% for(let list of listingData){ %>
-                <li><%= list.title %></li>
+                <li>
+                    <a href="/listings/<%=list._id%>"><%= list.title %></a>
+                    <button><a href="/listings/edit/<%=list.id%>">Edit</a></button>  
+                </li>
             <% } %>
         </ul>
+        <button>
+            <a href="/listings/form">ADD</a>
+        </button>
     </div>
 </body>
 </html>

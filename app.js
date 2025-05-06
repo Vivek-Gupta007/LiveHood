@@ -1,8 +1,11 @@
 const express = require('express')
 const app = express()
+const methodOverride = require('method-override')
 
 const mongoose = require('mongoose')
 const listing = require('./models/listing')
+
+app.use(methodOverride("_method"))
 
 main()
 .then(() => {
